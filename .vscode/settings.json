@@ -1,0 +1,21 @@
+{
+    // --- Python Environment ---
+    "python.defaultInterpreterPath": "/Users/fifo/.pyenv/versions/3.10.12/envs/my_venv_310/bin/python",
+
+    // --- Formatting ---
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+
+    // --- Git ---
+    "git.autofetch": true,
+    "git.confirmSync": false,
+
+    // --- Editor experience ---
+    "files.exclude": {
+        "__pycache__": true,
+        "**/*.pyc": true
+    },
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.rulers": [88]
+}
