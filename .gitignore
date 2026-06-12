@@ -8,3 +8,6 @@ venv/
 .idea/
 .vscode/
 !.vscode/settings.json
+
+# runtime job spec / output
+subtitle.json
